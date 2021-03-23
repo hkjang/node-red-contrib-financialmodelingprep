@@ -13,6 +13,9 @@ command in your Node-RED user directory, typically `~/.node-red`
 
     npm install node-red-contrib-financialmodelingprep
 
+## Wrapper financialmodelingprep.com API  
+- https://financialmodelingprep.com/developer/docs/
+
 ## Sample parameters
 ```js
 // msg.url = '/api/v3/profile/AAPL';
