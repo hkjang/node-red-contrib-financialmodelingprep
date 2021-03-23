@@ -1,0 +1,31 @@
+{
+  "name": "node-red-contrib-financialmodelingprep",
+  "version": "1.0.0",
+  "description": "Node-RED node for financialmodelingprep",
+  "main": "node.js",
+  "scripts": {
+    "test": "mocha \"test/**/*_spec.js\" --timeout 3000"
+  },
+  "node-red": {
+    "nodes": {
+      "financialmodelingprep": "node.js"
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/hkjang/node-red-contrib-financialmodelingprep/issues"
+  },
+  "homepage": "https://github.com/hkjang/node-red-contrib-financialmodelingprep#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hkjang/node-red-contrib-financialmodelingprep.git"
+  },
+  "keywords": [
+    "node-red-contrib-contribgen", 
+    "node-red", 
+    "financialmodelingprep"
+  ],
+  "devDependencies": {
+    "axios": "^0.21.1"
+  },
+  "license": "Apache-2.0"
+}
